@@ -1,5 +1,5 @@
 apt-get update
-apt-get upgrade
+apt-get -y upgrade
 apt install git
 apt install gcc
 apt install vim
