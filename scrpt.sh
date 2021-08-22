@@ -1,8 +1,8 @@
 apt-get update
 apt-get -y upgrade
-apt install git
-apt install gcc
-apt install vim
+apt install -y git
+apt install -y gcc
+apt install -y vim
 git clone https://github.com/hailinzeng/Unix-Network-Programming.git
 cd Unix-Network-Programming
 chmod +x configure
